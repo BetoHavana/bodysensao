@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Body Sensao » Aceites para masajes y aromaterapia</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <style>
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Position text in the middle of the page/image */
+        .bg-text {
+            background-color: rgb(0, 0, 0);
+            /* Fallback color */
+            background-color: rgba(0, 0, 0, 0.4);
+            /* Black w/opacity/see-through */
+            color: white;
+            font-weight: bold;
+            border: 3px solid #f1f1f1;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+            width: 80%;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .bgimg-1 {
+            background-image: url("./img/gradient.png");
+            /* The image used */
+
+            /* Add the blur effect */
+            filter: blur(8px);
+            -webkit-filter: blur(8px);
+
+            /* Full height */
+            height: 100%;
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .bgimg-2 {
+            background-image: url("./img/2-aromatizantes.jpg");
+            /* Add the blur effect */
+            filter: blur(8px);
+            -webkit-filter: blur(8px);
+
+            /* Full height */
+            height: 100%;
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .bgimg-3 {
+            background-image: url("./img/6-emociones.jpg");
+
+            /* Add the blur effect */
+            filter: blur(8px);
+            -webkit-filter: blur(8px);
+
+            /* Full height */
+            height: 100%;
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+
+        nav {
+            background-color: #706c61;
+            border-color: #f7f7f7;
+            color: #f7f7f7;
+            text-align: center;
+            position: static;
+        }
+
+        .navi {
+            height: 80px;
+            width: 100%;
+            /* hacemos que la cabecera ocupe el ancho completo de la página */
+            left: 0;
+            /* Posicionamos la cabecera al lado izquierdo */
+            top: 0;
+            /* Posicionamos la cabecera pegada arriba */
+            position: fixed;
+            /* Hacemos que la cabecera tenga una posición fija */
+        }
+
+        .navtext {
+            color: #f7f7f7 !important;
+        }
+
+        .titleDiv {
+            text-align: center;
+            letter-spacing: 10px;
+            background-color: #333333;
+            color: #f7f7f7;
+        }
+
+        @media only screen and (max-device-width: 1024px) {
+
+            /* Turn off parallax scrolling for tablets and phones
+          .bgimg-1, .bgimg-2, .bgimg-3 {
+            background-attachment: scroll;
+          } */
+        }
+    </style>
+    <!--Navbar-->
+
+</head>
+
+<body>
+    <div class="container-fluid titleDiv">
+        <img src="./img/logo.png" style="width:50px;height:50px;" /><br />
+        <a>BODY SENSAO</a>
+    </div>
+    <nav class="navbar navbar-expand-sm sticky-top justify-content-center">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link navtext" href="./index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link navtext" href="./nosotros.html">Nostros</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle navtext" href="#" id="navbardrop" data-toggle="dropdown">
+                    Nuestros Productos
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item navtext" href="#">Relax</a>
+                    <a class="dropdown-item navtext" href="#">Energy</a>
+                    <a class="dropdown-item navtext" href="#">Sensao</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link navtext" href=" ./contacto.html">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+    <!--body-->
+    <div class="bgimg-1"></div>
+
+    <div class="bg-text">
+        <h2>Bienvenidos</h2>
+    </div>
+
+</body>
+<footer class="container-fluid">
+    <a>Contacto</a>
+</footer>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+
+</html>
