@@ -12,10 +12,10 @@
     <style>
         /* general*/
         :root {
-            --first-color:#222831;
-            --second-color:#32e0c4;
-            --third-color: #393e46;
-            --fourth-color:#eeeeee;
+            --first-color:#1b262c;
+            --second-color:#0f4c75;
+            --third-color: #3282b8;
+            --fourth-color:#bbe1fa;
         }   
         body {
             background: var(--third-color);
@@ -59,7 +59,7 @@
 
         /* Navbar*/
         nav {
-            color: #f7f7f7;
+            
             text-align: center;
             position: static;
         }
@@ -79,7 +79,7 @@
         nav ul li a {
             display: block;
             padding: 0 10px;
-
+            color: #f7f7f7 !important;
             text-decoration: none;
         }
 
@@ -137,13 +137,12 @@
             background-size: 70% 90%;
             color: transparent;
             height: 500px;
-            left: 0px;
             opacity: 0;
             position: absolute;
             top: 0px;
             width: 100%;
             z-index: 0;
-            margin-top: 120px;
+            margin-top: 100px;
 
             box-shadow: black;
         }
@@ -180,6 +179,7 @@
             0% {
                 animation-timing-function: ease-in;
                 opacity: 0;
+                
             }
 
             8% {
@@ -201,10 +201,11 @@
         }
         /*footer*/
         #main-footer {
-            background: var(--third-color);
+            background: var(--second-color);
             text-align: center;
             padding: 40px;
-            height: 100px;
+            padding-top: 20px;
+            height: 70px;
             width: 100%;
             z-index: 20;
             position:absolute;
@@ -220,6 +221,9 @@
         }
         /*******************************************/
         @media only screen and (max-device-width: 1024px) {
+            body{
+                background-image: none;
+            }
 
             nav ul li a {
                 font-size: medium;
@@ -230,11 +234,15 @@
                 padding-left: 5px;
             }
             .crossfade>figure {
+                margin-top: 120px;
                 height:85%;
         }
 
         }
         @media only screen and (max-device-width: 720px) {
+            body{
+                background-image: none;
+            }
 
             nav ul li a {
                 font-size: small;
@@ -247,6 +255,7 @@
             
             .crossfade>figure {
                 height:70%;
+                margin-top: 120px;
             }
         }
     </style>
@@ -268,11 +277,13 @@
                     <a href="./nosotros.html">Nosotros</a>
                 </li>
                 <li class="dropdown">
-                    <a>Nuestros Productos </a>
+                    <a href="./productos.html">Nuestros Productos </a>
                     <div class="dropdown-content">
-                        <a href="#">Relax</a>
-                        <a href="#">Energy</a>
-                        <a href="#">Sensao</a>
+                        <a href="./productos.html#Aceites">Aceites</a>
+                        <a href="./productos.html#Aromatizantes">Aromatizantes</a>
+                        <a href="./productos.html#Aceitesd">Aceites para difusores</a>
+                        <a href="./productos.html#Brisas">Brisas</a>
+                        <a href="./productos.html#prods">Terapeuticos</a>
                     </div>
                 </li>
                 <li>
